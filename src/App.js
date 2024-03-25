@@ -44,13 +44,13 @@ function App() {
   const getPerformanceMessage = (score, total) => {
     const percentage = (score / total) * 100;
     if (percentage >= 90) {
-      return "Excellent job! You're a master!";
+      return "🎉 Excellent job! You're a master! 🎉";
     } else if (percentage >= 70) {
-      return "Good job! Keep practicing to improve!";
+      return "👍 Good job! Keep practicing to improve! 👍";
     } else if (percentage >= 50) {
-      return "You did well, but there's room for improvement.";
+      return "🙂 You did well, but there's room for improvement. 🙂";
     } else {
-      return "Don't worry, keep practicing and you'll get better!";
+      return "😔 Don't worry, keep practicing and you'll get better! 😔";
     }
   };
 
@@ -96,7 +96,7 @@ function App() {
       ) : (
         <>
           {subject && questions[subject] ? (
-            <div className='score-section'>
+            <div className={`score-section ${score < 4 ? 'sad-emoji' : score === 10 ? 'crackers' : ''}`}>
               You scored {score} out of {questions[subject].length}
               <div>{getPerformanceMessage(score, questions[subject].length)}</div>
             </div>
