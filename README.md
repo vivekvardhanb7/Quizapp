@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# React JS Quiz Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+This is a Quiz Application built using React JS that allows users to test their knowledge on various subjects. Users can select a subject they wish to quiz themselves on, answer multiple-choice questions, and view their total score upon completion. The application provides an intuitive user experience and is responsive across different devices.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Subject Selection**: Users can choose from a variety of subjects including Java, Python, and General Aptitude.
+- **Quiz Questions**: Each subject contains a set of 10 pre-defined multiple-choice questions (MCQs).
+- **Question Flow**: Questions are presented one at a time, with a visible indicator of progress.
+- **Results Calculation**: Total marks are calculated based on correct answers and displayed to the user upon completion.
+- **Retake Option**: Users have the option to retake the quiz with the same or a different subject.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Screenshots
 
-### `npm run build`
+![Screenshot (202)](https://github.com/vivekvardhanb7/Quizapp/assets/121116827/9ddd8174-68f6-43c2-8b80-30012a77ed5b)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+*Figure 1: Subject Selection Page*
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Screenshot (203)](https://github.com/vivekvardhanb7/Quizapp/assets/121116827/c5d2b9ed-c11f-4af6-8014-45249ef22d45)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+*Figure 2: Quiz Question Page*
 
-### `npm run eject`
+![Screenshot (204)](https://github.com/vivekvardhanb7/Quizapp/assets/121116827/f7602008-acc7-4c31-8076-99f78f5cbeb0)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+*Figure 3: Results Page*
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Setup Instructions
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Clone the repository to your local machine:
+   ```
+   git clone [repository-url]
+   ```
 
-## Learn More
+2. Navigate to the project directory:
+   ```
+   cd react-quiz-application
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Install dependencies:
+   ```
+   npm install
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Run the application:
+   ```
+   npm start
+   ```
 
-### Code Splitting
+5. Open your web browser and go to `http://localhost:3000` to view the application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Special thanks to Abhishek Soudagar and the team at KodNest Technologies for providing the assignment opportunity and guidance.
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Feel free to reach out to me if you have any questions or feedback regarding this project. Thank you for your interest!
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+*Author: Vivekavardhan Berila*
