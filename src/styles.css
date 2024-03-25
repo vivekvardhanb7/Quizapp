@@ -88,3 +88,24 @@ footer {
 .question-text {
   font-weight: bold;
 }
+/* Sad emoji animation */
+@keyframes sadAnimation {
+  20% { transform: scale(1); }
+  10% { transform: scale(1); }
+  100% { transform: scale(1.1); }
+}
+
+.sad-emoji {
+  animation: sadAnimation 0.5s infinite alternate;
+}
+
+/* Crackers animation */
+@keyframes crackersAnimation {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.crackers {
+  animation: crackersAnimation 1s infinite;
+}
